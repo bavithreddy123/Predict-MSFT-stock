@@ -1,0 +1,377 @@
+{
+  "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices",
+  "name": "Microsoft.MachineLearningServices",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourcegroups/MSFT/providers/Microsoft.MachineLearningServices/workspaces/kq12345",
+    "marketplaceItemId": "Microsoft.MachineLearningServices",
+    "provisioningHash": "iwuh-wccbe-tt0-2enb-ioes-849e-tircx-guw6"
+  },
+  "properties": {
+    "templateHash": "14063049050857732514",
+    "parameters": {
+      "workspaceName": {
+        "type": "String",
+        "value": "kq12345"
+      },
+      "location": {
+        "type": "String",
+        "value": "eastus2"
+      },
+      "resourceGroupName": {
+        "type": "String",
+        "value": "MSFT"
+      },
+      "sku": {
+        "type": "String",
+        "value": "Basic"
+      },
+      "identityType": {
+        "type": "String",
+        "value": "systemAssigned"
+      },
+      "primaryUserAssignedIdentityResourceGroup": {
+        "type": "String",
+        "value": "MSFT"
+      },
+      "primaryUserAssignedIdentityName": {
+        "type": "String",
+        "value": ""
+      },
+      "storageAccountOption": {
+        "type": "String",
+        "value": "new"
+      },
+      "storageAccountName": {
+        "type": "String",
+        "value": "kq123454199728546"
+      },
+      "storageAccountType": {
+        "type": "String",
+        "value": "Standard_LRS"
+      },
+      "storageAccountBehindVNet": {
+        "type": "String",
+        "value": "false"
+      },
+      "storageAccountResourceGroupName": {
+        "type": "String",
+        "value": "MSFT"
+      },
+      "storageAccountLocation": {
+        "type": "String",
+        "value": "eastus2"
+      },
+      "storageAccountHnsEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "keyVaultOption": {
+        "type": "String",
+        "value": "new"
+      },
+      "keyVaultName": {
+        "type": "String",
+        "value": "kq123457535815541"
+      },
+      "keyVaultBehindVNet": {
+        "type": "String",
+        "value": "false"
+      },
+      "keyVaultResourceGroupName": {
+        "type": "String",
+        "value": "MSFT"
+      },
+      "keyVaultLocation": {
+        "type": "String",
+        "value": "eastus2"
+      },
+      "applicationInsightsOption": {
+        "type": "String",
+        "value": "new"
+      },
+      "applicationInsightsName": {
+        "type": "String",
+        "value": "kq123452144472955"
+      },
+      "applicationInsightsResourceGroupName": {
+        "type": "String",
+        "value": "MSFT"
+      },
+      "applicationInsightsLocation": {
+        "type": "String",
+        "value": "eastus2"
+      },
+      "containerRegistryOption": {
+        "type": "String",
+        "value": "none"
+      },
+      "containerRegistryName": {
+        "type": "String",
+        "value": "crihougdxzz3rao"
+      },
+      "containerRegistrySku": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "containerRegistryResourceGroupName": {
+        "type": "String",
+        "value": "MSFT"
+      },
+      "containerRegistryBehindVNet": {
+        "type": "String",
+        "value": "false"
+      },
+      "containerRegistryLocation": {
+        "type": "String",
+        "value": "eastus2"
+      },
+      "vnetOption": {
+        "type": "String",
+        "value": "none"
+      },
+      "vnetName": {
+        "type": "String",
+        "value": "vnihougdxzz3rao"
+      },
+      "vnetResourceGroupName": {
+        "type": "String",
+        "value": "MSFT"
+      },
+      "addressPrefixes": {
+        "type": "Array",
+        "value": [
+          "10.0.0.0/16"
+        ]
+      },
+      "subnetOption": {
+        "type": "String",
+        "value": "none"
+      },
+      "subnetName": {
+        "type": "String",
+        "value": "snihougdxzz3rao"
+      },
+      "subnetPrefix": {
+        "type": "String",
+        "value": "10.0.0.0/24"
+      },
+      "adbWorkspace": {
+        "type": "String",
+        "value": ""
+      },
+      "confidential_data": {
+        "type": "String",
+        "value": "false"
+      },
+      "encryption_status": {
+        "type": "String",
+        "value": "Disabled"
+      },
+      "cmk_keyvault": {
+        "type": "String",
+        "value": ""
+      },
+      "resource_cmk_uri": {
+        "type": "String",
+        "value": ""
+      },
+      "privateEndpointType": {
+        "type": "String",
+        "value": "none"
+      },
+      "tagValues": {
+        "type": "Object",
+        "value": {}
+      },
+      "privateEndpointName": {
+        "type": "String",
+        "value": "pe"
+      },
+      "privateEndpointResourceGroupName": {
+        "type": "String",
+        "value": "MSFT"
+      },
+      "systemDatastoresAuthMode": {
+        "type": "String",
+        "value": "accessKey"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2021-12-14T18:58:54.4781719Z",
+    "duration": "PT2M19.7303318S",
+    "correlationId": "65dc5eb4-06bb-4561-94c4-c51ab4d4e4f9",
+    "providers": [
+      {
+        "namespace": "Microsoft.Storage",
+        "resourceTypes": [
+          {
+            "resourceType": "storageAccounts",
+            "locations": [
+              "eastus2"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.KeyVault",
+        "resourceTypes": [
+          {
+            "resourceType": "vaults",
+            "locations": [
+              "eastus2"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Insights",
+        "resourceTypes": [
+          {
+            "resourceType": "components",
+            "locations": [
+              "eastus2"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.MachineLearningServices",
+        "resourceTypes": [
+          {
+            "resourceType": "workspaces",
+            "locations": [
+              "eastus2"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.Network/virtualNetworks/vnihougdxzz3rao",
+            "resourceType": "Microsoft.Network/virtualNetworks",
+            "resourceName": "vnihougdxzz3rao"
+          }
+        ],
+        "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.Network/virtualNetworks/vnihougdxzz3rao/subnets/snihougdxzz3rao",
+        "resourceType": "Microsoft.Network/virtualNetworks/subnets",
+        "resourceName": "vnihougdxzz3rao/snihougdxzz3rao"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.Network/virtualNetworks/vnihougdxzz3rao/subnets/snihougdxzz3rao",
+            "resourceType": "Microsoft.Network/virtualNetworks/subnets",
+            "resourceName": "vnihougdxzz3rao/snihougdxzz3rao"
+          }
+        ],
+        "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.Resources/deployments/UpdateSubnetPolicy-pyg6izdekerkq",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "UpdateSubnetPolicy-pyg6izdekerkq"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.Network/virtualNetworks/vnihougdxzz3rao/subnets/snihougdxzz3rao",
+            "resourceType": "Microsoft.Network/virtualNetworks/subnets",
+            "resourceName": "vnihougdxzz3rao/snihougdxzz3rao"
+          }
+        ],
+        "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.Storage/storageAccounts/kq123454199728546",
+        "resourceType": "Microsoft.Storage/storageAccounts",
+        "resourceName": "kq123454199728546"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.Network/virtualNetworks/vnihougdxzz3rao/subnets/snihougdxzz3rao",
+            "resourceType": "Microsoft.Network/virtualNetworks/subnets",
+            "resourceName": "vnihougdxzz3rao/snihougdxzz3rao"
+          }
+        ],
+        "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.KeyVault/vaults/kq123457535815541",
+        "resourceType": "Microsoft.KeyVault/vaults",
+        "resourceName": "kq123457535815541"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.Network/virtualNetworks/vnihougdxzz3rao/subnets/snihougdxzz3rao",
+            "resourceType": "Microsoft.Network/virtualNetworks/subnets",
+            "resourceName": "vnihougdxzz3rao/snihougdxzz3rao"
+          }
+        ],
+        "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.ContainerRegistry/registries/crihougdxzz3rao",
+        "resourceType": "Microsoft.ContainerRegistry/registries",
+        "resourceName": "crihougdxzz3rao"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.Storage/storageAccounts/kq123454199728546",
+            "resourceType": "Microsoft.Storage/storageAccounts",
+            "resourceName": "kq123454199728546"
+          },
+          {
+            "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.KeyVault/vaults/kq123457535815541",
+            "resourceType": "Microsoft.KeyVault/vaults",
+            "resourceName": "kq123457535815541"
+          },
+          {
+            "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.Insights/components/kq123452144472955",
+            "resourceType": "Microsoft.Insights/components",
+            "resourceName": "kq123452144472955"
+          },
+          {
+            "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.ContainerRegistry/registries/crihougdxzz3rao",
+            "resourceType": "Microsoft.ContainerRegistry/registries",
+            "resourceName": "crihougdxzz3rao"
+          }
+        ],
+        "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.MachineLearningServices/workspaces/kq12345",
+        "resourceType": "Microsoft.MachineLearningServices/workspaces",
+        "resourceName": "kq12345"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.MachineLearningServices/workspaces/kq12345",
+            "resourceType": "Microsoft.MachineLearningServices/workspaces",
+            "resourceName": "kq12345"
+          },
+          {
+            "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.Network/virtualNetworks/vnihougdxzz3rao/subnets/snihougdxzz3rao",
+            "resourceType": "Microsoft.Network/virtualNetworks/subnets",
+            "resourceName": "vnihougdxzz3rao/snihougdxzz3rao"
+          }
+        ],
+        "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.Resources/deployments/DeployPrivateEndpoint-4yxlorfvgucfo",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "DeployPrivateEndpoint-4yxlorfvgucfo"
+      }
+    ],
+    "outputs": {},
+    "outputResources": [
+      {
+        "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.Insights/components/kq123452144472955"
+      },
+      {
+        "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.KeyVault/vaults/kq123457535815541"
+      },
+      {
+        "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.MachineLearningServices/workspaces/kq12345"
+      },
+      {
+        "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.Storage/storageAccounts/kq123454199728546"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

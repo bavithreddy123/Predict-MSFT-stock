@@ -1,0 +1,86 @@
+[
+  {
+    "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/DD454120258BBE79",
+    "operationId": "DD454120258BBE79",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-12-14T18:58:54.2143264Z",
+      "duration": "PT1M42.6070593S",
+      "trackingId": "3b1ab1e7-848e-4a3f-a130-f94071317c13",
+      "serviceRequestId": "d40bb5f1-86f5-4c51-92b6-9aa7b89c7f7e",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.MachineLearningServices/workspaces/kq12345",
+        "resourceType": "Microsoft.MachineLearningServices/workspaces",
+        "resourceName": "kq12345"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/53406407CCE4EE3B",
+    "operationId": "53406407CCE4EE3B",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-12-14T18:57:02.978688Z",
+      "duration": "PT25.4631611S",
+      "trackingId": "f7b0bff9-a544-43b5-ba32-aced2dacfd8a",
+      "serviceRequestId": "8c74021d-e4a2-481e-98ac-285052df3130",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.KeyVault/vaults/kq123457535815541",
+        "resourceType": "Microsoft.KeyVault/vaults",
+        "resourceName": "kq123457535815541"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/678EA3FF48BEBE40",
+    "operationId": "678EA3FF48BEBE40",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-12-14T18:56:46.8402776Z",
+      "duration": "PT9.4623776S",
+      "trackingId": "e2ca099b-8eff-4084-a7b6-7822132f7a57",
+      "serviceRequestId": "39e4d511-bf75-4db3-9e36-b976a3d83c9f",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.Insights/components/kq123452144472955",
+        "resourceType": "Microsoft.Insights/components",
+        "resourceName": "kq123452144472955"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/40579142E75BA199",
+    "operationId": "40579142E75BA199",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-12-14T18:57:11.5686598Z",
+      "duration": "PT34.1907598S",
+      "trackingId": "db405c62-aee2-44cd-8fbf-029b04a09a79",
+      "serviceRequestId": "d6e7a58b-0fe7-4476-83a4-69ff31eee468",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.Storage/storageAccounts/kq123454199728546",
+        "resourceType": "Microsoft.Storage/storageAccounts",
+        "resourceName": "kq123454199728546"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/78dc9d43-734b-401e-8b94-517e4a57e1e4/resourceGroups/MSFT/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/08585620986930199062",
+    "operationId": "08585620986930199062",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-12-14T18:58:54.4566196Z",
+      "duration": "PT0.1053524S",
+      "trackingId": "1c237c94-7219-4ae6-a06c-662f153dba87",
+      "statusCode": "OK"
+    }
+  }
+]
