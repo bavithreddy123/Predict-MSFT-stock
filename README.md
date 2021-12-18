@@ -18,6 +18,8 @@ The app predicts the max value or High for MSFT stock, since we deployed real-ti
 
 ![1-t_tT7X-zQIaG6S1lbKt6Yw](https://user-images.githubusercontent.com/84835408/146638686-3fa65771-7986-4cd6-be54-148822fac699.png)
 
-![Screenshot (561)](https://user-images.githubusercontent.com/84835408/146638749-89612902-9b1e-4360-9e30-0dbf8785c279.png) ML pipeline triggred by blob.
+![Screenshot (561)](https://user-images.githubusercontent.com/84835408/146638749-89612902-9b1e-4360-9e30-0dbf8785c279.png) 
+                                          ML pipeline triggred by blob.
+                                          
 
 
